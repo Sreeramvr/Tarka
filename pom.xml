@@ -39,8 +39,23 @@
             <executable>true</executable>
           </configuration>
         </plugin>
+<<<<<<< HEAD
+=======
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.10.1</version>
+        </plugin>
+>>>>>>> edd780b (Updated message for the last commit)
       </plugins>
 
     <finalName>Tarka</finalName>
   </build>
+<<<<<<< HEAD
+=======
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+>>>>>>> edd780b (Updated message for the last commit)
 </project>
