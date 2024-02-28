@@ -18,6 +18,7 @@ public class StudentController {
     @PostMapping("/submitForm")
     public String submitForm(@ModelAttribute("student") Student student) {
         // Here you can add code to save the student data in a database or perform any other operation
+        DataExecution.executeData();
         return "submitted";
     }
 }
