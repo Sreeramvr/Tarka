@@ -13,8 +13,7 @@ color:red;
 
     <h1> TARKA INFOTECH PVT LTD </h1>
     <button onclick="get();"> CLICK ME </button>
-<<<<<<< HEAD
-     <table>
+     <table border: 2px solid black;>
             <tr>
                 <th>ID</th>
                 <th>Name</th>
@@ -25,12 +24,8 @@ color:red;
                 <td th:text="${user.employee_name}"></td>
             </tr>
         </table>
-=======
-<table> 
-<tr> <th> SLNO </th> </tr>
-<tr> <td> 1 </td> </tr>
-</table>
->>>>>>> 276df73de4d0b2c9f0ea8a1264e6ef47e32dda0d
+
+
 </body>
 <script>
 function get ()
