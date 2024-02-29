@@ -7,7 +7,7 @@
     {
     color:red;
     }
-    table
+    table,th,td
     {
    border: 2px solid black;
    }
@@ -24,9 +24,10 @@
                 <th>Name</th>
                 <th>Email</th>
             </tr>
-            <tr th:each="user : ${users}">
-                <td th:text="${user.sl_no}"></td>
-                <td th:text="${user.employee_name}"></td>
+            <tr
+            <td> 01</td>
+            <td> sreeram</td>
+            <td> sreeram@tarkasoft.com</td>
             </tr>
         </table>
 
