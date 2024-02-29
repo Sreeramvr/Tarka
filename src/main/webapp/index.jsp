@@ -3,11 +3,21 @@
 <head>
     <title>Student Form</title>
 </head>
+<style>
+.h1
+{
+color:red;
+}
+ </style>
 <body>
-    <table border=1 width=50% height=50%>
-    <tr><th>SLNO</th><th>EMPLOYEENAME</th><tr>
-    <tr><td>" + n + "</td><td>" + nm + "</td></tr>
-    </table>
+
     <h1> TARKA INFOTECH PVT LTD </h1>
+    <button onclick="get();"> CLICK ME </button>
 </body>
+<script>
+function get ()
+{
+alert("HELLO");
+}
+</script>
 </html>
