@@ -13,6 +13,10 @@ color:red;
 
     <h1> TARKA INFOTECH PVT LTD </h1>
     <button onclick="get();"> CLICK ME </button>
+<table> 
+<tr> <th> SLNO </th> </tr>
+<tr> <td> 1 </td> </tr>
+</table>
 </body>
 <script>
 function get ()
