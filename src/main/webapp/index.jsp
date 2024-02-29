@@ -11,13 +11,13 @@
     {
    border: 2px solid black;
    }
-     </style>
+
 </head>
 
 <body>
 
-    <h1> TARKA INFOTECH PVT LTD </h1>
-    <button onclick="get();"> CLICK ME </button>
+   <h1> TARKA INFOTECH PVT LTD </h1>
+ <p>  button onclick="get();"> CLICK ME </button> </p> <br> </br>
      <table>
             <tr>
                 <th>ID</th>
