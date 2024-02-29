@@ -10,6 +10,7 @@
     table,th,td
     {
    border: 2px solid black;
+   border radius: 5px;
    }
    h4 { color:#808080}
 </style>
@@ -38,8 +39,6 @@
              </tr>
         </table>
         <h4>  This is a testing file </h4>
- <h4>  This is a testing file </h4> <br> </br>
- <h4>  This is a testing file </h4>
 </body>
 <script>
 function get ()
