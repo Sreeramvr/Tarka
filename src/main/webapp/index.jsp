@@ -3,10 +3,14 @@
 <head>
     <title>Student Form</title>
     <style>
-    .h1
+    h1
     {
     color:red;
     }
+    table
+    {
+   border: 2px solid black;
+   }
      </style>
 </head>
 
