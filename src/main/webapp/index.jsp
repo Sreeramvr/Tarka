@@ -11,13 +11,14 @@
     {
    border: 2px solid black;
    }
+   h4 { color:#808080}
 </style>
 </head>
 
 <body>
 
    <h1> TARKA INFOTECH PVT LTD </h1>
- <p>  <button> onclick="get();"> CLICK ME </button> </p>
+  <button onclick="get();"> CLICK ME </button>
   <br> </br>
      <table>
             <tr>
@@ -35,10 +36,10 @@
                   <td> Raghu</td>
                   <td> Raghu@tarkasoft.com</td>
              </tr>
-        </table> <br> </br>
-        <h4>  This is a testing file </h4> <br> </br>
+        </table>
+        <h4>  This is a testing file </h4>
  <h4>  This is a testing file </h4> <br> </br>
- <h4>  This is a testing file </h4> <br> </br>
+ <h4>  This is a testing file </h4>
 </body>
 <script>
 function get ()
