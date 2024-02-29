@@ -5,12 +5,12 @@
     <style>
     h1
     {
-    color:red;
+    color:blue;
     }
     table,th,td
     {
    border: 2px solid black;
-   border radius: 5px;
+   border-radius: 5px;
    }
    h4 { color:#808080}
 </style>
