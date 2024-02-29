@@ -2,18 +2,19 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Student Form</title>
+    <style>
+    .h1
+    {
+    color:red;
+    }
+     </style>
 </head>
-<style>
-.h1
-{
-color:red;
-}
- </style>
+
 <body>
 
     <h1> TARKA INFOTECH PVT LTD </h1>
     <button onclick="get();"> CLICK ME </button>
-     <table border: 2px solid black;>
+     <table>
             <tr>
                 <th>ID</th>
                 <th>Name</th>
