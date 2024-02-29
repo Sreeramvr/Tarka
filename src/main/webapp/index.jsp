@@ -24,11 +24,16 @@
                 <th>Name</th>
                 <th>Email</th>
             </tr>
-            <tr
+            <tr>
             <td> 01</td>
-            <td> sreeram</td>
+            <td> sreeram </td>
             <td> sreeram@tarkasoft.com</td>
             </tr>
+           <tr>
+                 <td> 02</td>
+                  <td> Raghu</td>
+                  <td> Raghu@tarkasoft.com</td>
+             </tr>
         </table>
 
 
