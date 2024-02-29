@@ -17,7 +17,8 @@ color:red;
 <script>
 function get ()
 {
-alert("HELLO");
+alert("WORKING");
+console.log("TARKA INFOTECH PVT LTD")
 }
 </script>
 </html>
