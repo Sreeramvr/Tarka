@@ -1,0 +1,4 @@
+spring.datasource.url=jdbc:mysql://13.232.155.0/vyapak
+spring.datasource.username=tarka
+spring.datasource.password=tarka*62M!C8}V]T7U_tRtitpl
+spring.jpa.hibernate.ddl-auto=update
