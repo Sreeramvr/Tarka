@@ -3,6 +3,7 @@
 <head>
     <title>Student Form</title>
     <style>
+    body { color:red;}
     h1
     {
     color:blue;
@@ -39,6 +40,7 @@
              </tr>
         </table>
         <h4>  This is a testing file </h4>
+        <button onclick="data();"> click to approve </button>
 </body>
 <script>
 function get ()
@@ -46,5 +48,6 @@ function get ()
 alert("WORKING");
 console.log("TARKA INFOTECH PVT LTD")
 }
+function data() { alert(" working");}
 </script>
 </html>
