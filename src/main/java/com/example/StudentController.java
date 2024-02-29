@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
+
 @Controller
 public class StudentController {
 
@@ -18,7 +19,7 @@ public class StudentController {
     @PostMapping("/submitForm")
     public String submitForm(@ModelAttribute("student") Student student) {
         // Here you can add code to save the student data in a database or perform any other operation
-        DataExecution.executeData();
+
         return "submitted";
     }
 }
