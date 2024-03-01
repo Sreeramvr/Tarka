@@ -1,7 +1,7 @@
  <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Student Form</title>
+    <title>TARKA</title>
     <style>
     body {
     color:red;
@@ -45,6 +45,7 @@
              </tr>
         </table>
         <h4>  This is a testing file </h4>
+        <h6> SOLUTIONS THAT WORKS </h6>
         <button onclick="data();"> click to approve </button>
 </body>
 <script>
