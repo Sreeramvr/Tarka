@@ -3,7 +3,10 @@
 <head>
     <title>Student Form</title>
     <style>
-    body { color:red;}
+    body {
+    color:red;
+    backgroung-color:pink;
+    }
     h1
     {
     color:blue;
