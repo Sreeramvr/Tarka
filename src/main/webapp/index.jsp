@@ -5,11 +5,12 @@
     <style>
     body {
     color:red;
-    backgroung-color:pink;
+   background-color: bisque;
     }
     h1
     {
     color:blue;
+    background-color: aliceblue;
     }
     table,th,td
     {
