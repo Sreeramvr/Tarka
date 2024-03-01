@@ -25,6 +25,6 @@
     <button onclick="getdata();"> click me </button>
 </body>
 <script>
-function getdata() { alert("working");}
+function getdata() { alert(results);}
 </script>
 </html>
