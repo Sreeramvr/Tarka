@@ -3,7 +3,10 @@
 
 <html>
 <head>
-    <title>Show Data</title>
+    <title>TARKA</title>
+    <style>
+    table,th,td { border:2px solid black;}
+    </style>
 </head>
 <body>
     <table>
@@ -14,17 +17,17 @@
             </tr>
         </thead>
         <tbody>
-            <c:forEach var="row" items="${results}">
+
                 <tr>
-                    <td>${row.sl_no}</td>
-                    <td>${row.employee_name}</td>
+                    <td>01</td>
+                    <td> sreeram</td>
                 </tr>
-            </c:forEach>
+
         </tbody>
     </table>
     <button onclick="getdata();"> click me </button>
 </body>
 <script>
-function getdata() { alert(results);}
+function getdata() { alert("working");}
 </script>
 </html>
