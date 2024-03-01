@@ -11,6 +11,7 @@
     {
     color:blue;
     background-color: aliceblue;
+    text-align: center;
     }
     table,th,td
     {
