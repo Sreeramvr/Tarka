@@ -54,6 +54,6 @@ function get ()
 alert("WORKING");
 console.log("TARKA INFOTECH PVT LTD")
 }
-function data() { alert(" working");}
+function data() { alert(" working"); console.log(" sreeram is a good boy ")}
 </script>
 </html>
