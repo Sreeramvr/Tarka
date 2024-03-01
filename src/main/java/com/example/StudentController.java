@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 @Controller
 public class StudentController {
 
-    @GetMapping("/")
+    @GetMapping("/data")
     public String showForm(Model model) {
         model.addAttribute("student", new Student());
         return "studentform";

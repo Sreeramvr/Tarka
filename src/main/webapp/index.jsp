@@ -1,33 +1,58 @@
-
-<%@ page import="java.sql.ResultSet" %>
-
-<html>
+ <!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>TARKA</title>
+    <title>Student Form</title>
     <style>
-    table,th,td { border:2px solid black;}
-    </style>
+    body {
+    color:red;
+   background-color: bisque;
+    }
+    h1
+    {
+    color:blue;
+    background-color: aliceblue;
+    text-align: center;
+    }
+    table,th,td
+    {
+   border: 2px solid black;
+   border-radius: 5px;
+   }
+   h4 { color:#808080}
+</style>
 </head>
+
 <body>
-    <table>
-        <thead>
+
+   <h1> TARKA INFOTECH PVT LTD </h1>
+  <button onclick="get();"> CLICK ME </button>
+  <br> </br>
+     <table>
             <tr>
-                <th>sl_no</th>
-                <th>employee_name</th>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
             </tr>
-        </thead>
-        <tbody>
-
-                <tr>
-                    <td>01</td>
-                    <td> sreeram</td>
-                </tr>
-
-        </tbody>
-    </table>
-    <button onclick="getdata();"> click me </button>
+            <tr>
+            <td> 01</td>
+            <td> sreeram </td>
+            <td> sreeram@tarkasoft.com</td>
+            </tr>
+           <tr>
+                 <td> 02</td>
+                  <td> Raghu</td>
+                  <td> Raghu@tarkasoft.com</td>
+             </tr>
+        </table>
+        <h4>  This is a testing file </h4>
+        <button onclick="data();"> click to approve </button>
 </body>
 <script>
-function getdata() { alert("working");}
+function get ()
+{
+alert("WORKING");
+console.log("TARKA INFOTECH PVT LTD")
+}
+function data() { alert(" working");}
 </script>
 </html>
