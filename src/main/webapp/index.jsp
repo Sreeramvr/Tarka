@@ -1,4 +1,4 @@
- 
+
 <%@ page import="java.sql.ResultSet" %>
 
 <html>
@@ -22,5 +22,9 @@
             </c:forEach>
         </tbody>
     </table>
+    <button onclick="getdata();"> click me </button>
 </body>
+<script>
+function getdata() { alert("working");}
+</script>
 </html>
