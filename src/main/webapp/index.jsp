@@ -54,16 +54,12 @@
         <h6> SOLUTIONS THAT WORKS </h6>
         <button onclick="data();"> click to approve </button>
 
-        <h2>Data Collection Form</h2>
+        <p> WARNING: An illegal reflective access operation has occurred
+            WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/home/ubuntu/.m2/repository/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar) to field java.util.Properties.defaults
+            WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+            WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+            WARNING: All illegal access operations will be denied in a future release</P>
 
-        <form action="DataServlet" method="post">
-          <label for="fname">First name:</label><br>
-          <input type="text" id="fname" name="fname"><br>
-          <label for="lname">Last name:</label><br>
-          <input type="text" id="lname" name="lname"><br><br>
-          <input type="submit" value="Submit">
-        </form>
-<button onclick="get();">  click me </button>
 
 </body>
 <script>
