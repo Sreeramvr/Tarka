@@ -1,6 +1,6 @@
  <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
  <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-gitgit 
+
  <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
