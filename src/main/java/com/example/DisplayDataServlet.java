@@ -42,17 +42,17 @@ public class DisplayDataServlet extends HttpServlet {
             Statement stmt = conn.createStatement();
 
             // Execute a SQL query to retrieve data from the "employees" table
-            ResultSet rs = stmt.executeQuery("SELECT sl_no,employee_name FROM tarka");
+            ResultSet rs = stmt.executeQuery("SELECT sl_no,employee_name,adress FROM tarka");
 
             // Display the data in an HTML table
             out.println("<table border='1'>");
-            out.println("<tr><th>SLNO</th><th>EMPLOYEENAME</th></tr>");
+            out.println("<tr><th>SLNO</th><th>EMPLOYEENAME</th> <th> ADRESS</th></tr>");
             while (rs.next()) {
                 int id = rs.getInt("sl_no");
                 String name = rs.getString("employee_name");
-//                String position = rs.getString("position");
+                String adress = rs.getString("adress");
 //                double salary = rs.getDouble("salary");
-                out.println("<tr><td>" + id + "</td><td>" + name + "</td></tr>");
+                out.println("<tr><td>" + id + "</td><td>" + name + "</td><td>"+ adress + "</td></tr>");
             }
             out.println("</table>");
 
