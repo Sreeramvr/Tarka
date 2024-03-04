@@ -71,7 +71,7 @@ function get ()
 {
 alert(" working ");
 console.log("TARKA INFOTECH PVT LTD");
-console.log(adress);
+
 }
 function data() { alert(" working"); console.log(" sreeram is a good boy ")}
 </script>
