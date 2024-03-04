@@ -20,7 +20,7 @@ public class DataServlet extends HttpServlet {
                     "jdbc:mysql://13.232.155.0/vyapak", "tarka", "tarka*62M!C8}V]T7U_tRtitpl");
 
             PreparedStatement ps = con
-                    .prepareStatement("insert into USERS values(?,?)");
+                    .prepareStatement("insert into tarka (sl_no,employee_name) values(?,?)");
 
             ps.setString(1, slno);
             ps.setString(2, employeename);
