@@ -54,13 +54,7 @@
         <h6> SOLUTIONS THAT WORKS </h6>
         <button onclick="data();"> click to approve </button>
 
-        <p> WARNING: An illegal reflective access operation has occurred
-            WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/home/ubuntu/.m2/repository/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar) to field java.util.Properties.defaults
-            WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
-            WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
-            WARNING: All illegal access operations will be denied in a future release</P>
-
-
+       
 </body>
 <script>
 function get ()
