@@ -48,8 +48,8 @@ public class DisplayDataServlet extends HttpServlet {
             out.println("<table border='1'>");
             out.println("<tr><th>SLNO</th><th>EMPLOYEENAME</th></tr>");
             while (rs.next()) {
-                int id = rs.getInt("id");
-                String name = rs.getString("name");
+                int id = rs.getInt("sl_no");
+                String name = rs.getString("employee_name");
 //                String position = rs.getString("position");
 //                double salary = rs.getDouble("salary");
                 out.println("<tr><td>" + id + "</td><td>" + name + "</td></tr>");
