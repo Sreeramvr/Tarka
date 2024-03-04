@@ -18,8 +18,10 @@ public class SubmitServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        // Handle GET requests here
+        // You can redirect the user to a form to collect data and submit it via a POST request
+        response.sendRedirect("input.jsp");
 
         String slno = request.getParameter("sl_no");
         String employeeName = request.getParameter("employee_name");
