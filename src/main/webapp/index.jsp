@@ -53,6 +53,18 @@
         <h5>  simple solutions for modern issues</h5>
         <h6> SOLUTIONS THAT WORKS </h6>
         <button onclick="data();"> click to approve </button>
+
+        <h2>Data Collection Form</h2>
+
+        <form action="DataServlet" method="post">
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname"><br><br>
+          <input type="submit" value="Submit">
+        </form>
+
+
 </body>
 <script>
 function get ()
