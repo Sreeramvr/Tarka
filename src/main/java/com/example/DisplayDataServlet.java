@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/demo")
+@WebServlet("/data")
 public class DisplayDataServlet extends HttpServlet {
 
     @Override
@@ -42,17 +42,18 @@ public class DisplayDataServlet extends HttpServlet {
             Statement stmt = conn.createStatement();
 
             // Execute a SQL query to retrieve data from the "employees" table
-            ResultSet rs = stmt.executeQuery("SELECT sl_no,employee_name,adress FROM tarka");
+            ResultSet rs = stmt.executeQuery("SELECT sl_no,employee_name,adress,phone_no,created_by FROM tarka");
 
             // Display the data in an HTML table
             out.println("<table border='1'>");
-            out.println("<tr><th>SLNO</th><th>EMPLOYEENAME</th> <th> ADRESS</th></tr>");
+            out.println("<tr><th>SLNO</th><th>EMPLOYEENAME</th> <th> ADRESS</th> <th> PHONENO</th> <th> CREATEDBY</th></tr>");
             while (rs.next()) {
                 int id = rs.getInt("sl_no");
                 String name = rs.getString("employee_name");
                 String adress = rs.getString("adress");
-//                double salary = rs.getDouble("salary");
-                out.println("<tr><td>" + id + "</td><td>" + name + "</td><td>"+ adress + "</td></tr>");
+            int    phoneno = rs.getInt("phone_no");
+                int   createdby = rs.getInt("created_by");
+                out.println("<tr><td>" + id + "</td><td>" + name + "</td><td>"+ adress + "</td><td>" + phoneno + "</td><td>" + createdby + "</td></tr>");
             }
             out.println("</table>");
 
