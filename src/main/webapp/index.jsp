@@ -56,8 +56,9 @@
 <script>
 function get ()
 {
-alert("rs.getInt('sl_no');");
-console.log("TARKA INFOTECH PVT LTD")
+alert(id);
+console.log("TARKA INFOTECH PVT LTD");
+console.log(adress);
 }
 function data() { alert(" working"); console.log(" sreeram is a good boy ")}
 </script>
