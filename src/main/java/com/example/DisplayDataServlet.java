@@ -1,5 +1,7 @@
 package com.example;
 
+import org.hibernate.type.descriptor.sql.VarcharTypeDescriptor;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
@@ -51,8 +53,8 @@ public class DisplayDataServlet extends HttpServlet {
                 int id = rs.getInt("sl_no");
                 String name = rs.getString("employee_name");
                 String adress = rs.getString("adress");
-            int    phoneno = rs.getInt("phone_no");
-                int   createdby = rs.getInt("created_by");
+              String phoneno = rs.getString("phone_no");
+                String   createdby = rs.getString("created_by");
                 out.println("<tr><td>" + id + "</td><td>" + name + "</td><td>"+ adress + "</td><td>" + phoneno + "</td><td>" + createdby + "</td></tr>");
             }
             out.println("</table>");
