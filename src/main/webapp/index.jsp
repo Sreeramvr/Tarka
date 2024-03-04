@@ -63,13 +63,13 @@
           <input type="text" id="lname" name="lname"><br><br>
           <input type="submit" value="Submit">
         </form>
-
+<button onclick="get();">  click me </button>
 
 </body>
 <script>
 function get ()
 {
-alert(id);
+alert(" working ");
 console.log("TARKA INFOTECH PVT LTD");
 console.log(adress);
 }
