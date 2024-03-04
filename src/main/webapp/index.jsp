@@ -1,3 +1,4 @@
+ <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
  <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
@@ -29,25 +30,22 @@
   <br> </br>
      <table>
             <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Email</th>
+                <th>SLNO</th>
+                <th>EMPLOYEENAME</th>
+                <th>ADRESS</th>
+                <th>PHONENO</th>
+                <th>CREATEDBY</th>
             </tr>
-            <tr>
-            <td> 01</td>
-            <td> sreeram </td>
-            <td> sreeram@tarkasoft.com</td>
-            </tr>
-           <tr>
-                 <td> 02</td>
-                  <td> Raghu</td>
-                  <td> Raghu@tarkasoft.com</td>
-             </tr>
-             <tr>
-             <td> 03</td>
-             <td> Arun </td>
-             <td> arun@tarkasoft.com</td>
-              </tr>
+           <c:forEach var="rs" items="${rs.rows}">
+           		<tr>
+           			<td><c:out value="${rs.Sl_no}" /></td>
+           			<td><c:out value="${rs.employee_name}" /></td>
+           			<td><c:out value="${rs.adress}" /></td>
+           			<td><c:out value="${rs.phone_no}" /></td>
+           			<td><c:out value="${rs.created_by}" /></td>
+           		</tr>
+           	</c:forEach>
+
         </table>
         <h4>  This is a testing file </h4>
         <h5>  simple solutions for modern issues</h5>
