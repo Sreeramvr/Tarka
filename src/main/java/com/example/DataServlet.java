@@ -2,13 +2,11 @@ package com.example;
 
 import java.io.*;
 import javax.servlet.*;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.sql.*;
-@WebServlet("/submit")
+
 public class DataServlet extends HttpServlet {
-    @Override
-    protected  void doPost(HttpServletRequest request, HttpServletResponse response)
+    public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
@@ -22,7 +20,7 @@ public class DataServlet extends HttpServlet {
                     "jdbc:mysql://13.232.155.0/vyapak", "tarka", "tarka*62M!C8}V]T7U_tRtitpl");
 
             PreparedStatement ps = con
-                    .prepareStatement("insert into tarka values(?,?)");
+                    .prepareStatement("insert into USERS values(?,?)");
 
             ps.setString(1, slno);
             ps.setString(2, employeename);
