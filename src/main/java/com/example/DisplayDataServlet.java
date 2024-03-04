@@ -47,7 +47,7 @@ public class DisplayDataServlet extends HttpServlet {
             ResultSet rs = stmt.executeQuery("SELECT sl_no,employee_name,adress,phone_no,created_by FROM tarka");
 
             // Display the data in an HTML table
-            out.println("<table border='1'>");
+            out.println("<table border='1', border-radius='5px'>");
             out.println("<tr><th>SLNO</th><th>EMPLOYEENAME</th> <th> ADRESS</th> <th> PHONENO</th> <th> CREATEDBY</th></tr>");
             while (rs.next()) {
                 int id = rs.getInt("sl_no");
