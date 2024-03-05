@@ -47,6 +47,13 @@
            			<td><c:out value="${rs.phone_no}" /></td>
            			<td><c:out value="${rs.created_by}" /></td>
            		</tr>
+           		<tr>
+           		<td>01 </td>
+           		<td> sreeram</td>
+           		<td> Banglore </td>
+           		<td>  9059498633 </td>
+           		<td> 21 </td>
+           		</tr>
            	</c:forEach>
 
         </table>
