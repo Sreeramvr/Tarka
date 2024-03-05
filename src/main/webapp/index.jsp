@@ -28,6 +28,7 @@
 <body>
 
    <h1> TARKA INFOTECH PVT LTD </h1>
+   <h6> SOLUTIONS THAT WORKS </h6>
   <button onclick="get();"> CLICK ME </button>
   <br> </br>
      <table>
@@ -51,7 +52,7 @@
         </table>
         <h4>  This is a testing file </h4>
         <h5>  simple solutions for modern issues</h5>
-        <h6> SOLUTIONS THAT WORKS </h6>
+
         <button onclick="data();"> click to approve </button>
 
        
