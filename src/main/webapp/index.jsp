@@ -54,6 +54,13 @@
            		<td>  9059498633 </td>
            		<td> 21 </td>
            		</tr>
+           		<tr>
+                           		<td>02</td>
+                           		<td> Raghu</td>
+                           		<td> Banglore </td>
+                           		<td>  987654321 </td>
+                           		<td> 21 </td>
+                           		</tr>
            	</c:forEach>
 
         </table>
