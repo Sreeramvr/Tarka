@@ -64,7 +64,7 @@
            	</c:forEach>
 
         </table>
-        <h4>  This is a testing file </h4>
+      
         <h5>  simple solutions for modern issues</h5>
 
         <button onclick="data();"> click to approve </button>
@@ -78,6 +78,6 @@ alert(" working ");
 console.log("TARKA INFOTECH PVT LTD");
 
 }
-function data() { alert(" working"); console.log(" sreeram is a good boy ")}
+function data() { alert(" DEVOPS"); console.log(" sreeram is a good boy ")}
 </script>
 </html>
